@@ -1,0 +1,130 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+.env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Model files
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# Data files
+data/*.csv
+data/*.json
+data/*.txt
+data/*.xlsx
+data/*.parquet
+data/raw/
+data/processed/
+data/external/
+
+# Results and outputs
+results/
+outputs/
+plots/
+figures/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.cache
+
+# Hugging Face cache
+.cache/
+transformers_cache/
+
+# PyTorch
+*.pth
+*.pt
+
+# TensorFlow
+*.pb
+*.tflite
+
+# MLFlow
+mlruns/
+
+# Weights & Biases
+wandb/
+
+# DVC
+.dvc/
+*.dvc
+
+# Large files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# API keys and secrets
+.env
+secrets.txt
+api_keys.txt
+config_local.yaml
