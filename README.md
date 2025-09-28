@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project for sentiment analysis using both traditional ML approaches and modern transformer models.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project implements multiple sentiment analysis approaches:
 - **Traditional ML Models**: Logistic Regression, SVM, Naive Bayes, Random Forest
@@ -10,7 +10,7 @@ This project implements multiple sentiment analysis approaches:
 - **Text Preprocessing**: Comprehensive text cleaning and feature extraction
 - **Model Comparison**: Side-by-side evaluation of different approaches
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 sentiment_analysis_project/
@@ -27,7 +27,7 @@ sentiment_analysis_project/
 └── README.md              # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Environment Setup
 
@@ -62,7 +62,7 @@ jupyter lab
 # Open notebooks/01_explore_and_train.ipynb
 ```
 
-### 4. Test Voice Input (NEW! 🎤)
+### 4. Test Voice Input (NEW!)
 
 ```powershell
 # Test voice functionality
@@ -72,14 +72,14 @@ python voice_demo.py
 python launch_gui.py
 ```
 
-#### 🎤 Voice Input Requirements
+#### Voice Input Requirements
 
 - **Microphone**: Working microphone connected to your system
 - **Internet Connection**: Required for Google Speech Recognition API
 - **Audio Dependencies**: PyAudio, SpeechRecognition, pydub (installed automatically)
 - **Supported Formats**: WAV, MP3, M4A for file analysis
 
-## 💻 Usage Examples
+## Usage Examples
 
 ### Basic Usage
 
@@ -121,7 +121,7 @@ results = comparator.compare_models(X_train, y_train, X_test, y_test)
 print(results)
 ```
 
-### Voice Input Analysis (NEW! 🎤)
+### Voice Input Analysis (NEW!)
 
 ```python
 from src.voice_processor import VoiceInputProcessor, VoiceSentimentAnalyzer
@@ -163,7 +163,7 @@ if result['success']:
     print(f"Sentiment: {result['primary_sentiment']} ({result['confidence']:.2f})")
 ```
 
-## 🔧 Configuration
+## Configuration
 
 Edit `config.yaml` to customize:
 - Model parameters
@@ -171,19 +171,19 @@ Edit `config.yaml` to customize:
 - File paths
 - API settings
 
-## 📊 Features
+## Features
 
 - **Multiple Model Types**: Traditional ML and modern transformers
 - **Comprehensive Preprocessing**: Text cleaning, tokenization, stemming/lemmatization
 - **Model Evaluation**: Accuracy, precision, recall, F1-score
 - **Visualization**: Model comparison plots
-- **🎤 Voice Input Support**: Real-time speech recognition and sentiment analysis
-- **🔊 Audio File Processing**: Batch analysis of audio files
+- **Voice Input Support**: Real-time speech recognition and sentiment analysis
+- **Audio File Processing**: Batch analysis of audio files
 - **Real-time Feedback**: Live sentiment analysis during voice input
 - **Extensible**: Easy to add new models and features
 - **Production Ready**: Model saving/loading, API deployment ready
 
-## 🚀 API Endpoints
+## API Endpoints
 
 The Flask server provides REST API endpoints for both text and voice analysis:
 
@@ -193,7 +193,7 @@ The Flask server provides REST API endpoints for both text and voice analysis:
 - `GET /api/examples` - Get sample texts for testing
 - `GET /api/model_status` - Check model loading status
 
-### Voice Analysis Endpoints (NEW! 🎤)
+### Voice Analysis Endpoints (NEW!)
 - `GET /api/voice/test_microphone` - Test microphone functionality
 - `GET /api/voice/devices` - List available audio devices
 - `POST /api/voice/start_recording` - Start real-time voice recording
@@ -222,14 +222,14 @@ result = response.json()
 print(f"Overall sentiment: {result['summary']['overall_sentiment']}")
 ```
 
-## 🧪 Testing
+## Testing
 
 ```powershell
 # Run tests (when implemented)
 python -m pytest tests/
 ```
 
-## 📈 Model Performance
+## Model Performance
 
 The project includes several pre-configured models:
 
@@ -240,7 +240,7 @@ The project includes several pre-configured models:
 | Naive Bayes | 75-80% | Very Fast | Very Fast |
 | Transformer | 90-95% | N/A (pre-trained) | Moderate |
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Real-time sentiment analysis API
 - [ ] Support for multiple languages
@@ -251,7 +251,7 @@ The project includes several pre-configured models:
 - [ ] Custom dataset support
 - [ ] Aspect-based sentiment analysis
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -259,11 +259,11 @@ The project includes several pre-configured models:
 4. Add tests
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Hugging Face for transformer models
 - scikit-learn for traditional ML algorithms
@@ -272,4 +272,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Happy Analyzing! 🎉**
+**Happy Analyzing!**
